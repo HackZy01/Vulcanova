@@ -43,7 +43,7 @@ jobs:
         env:
           GOOGLE_SERVICE__INFO_PLIST: ${{ secrets.GOOGLE_SERVICE__INFO_PLIST }}
 
-      - name: Select Xcode 15
+      - name: Select Xcode 16
         run: sudo xcode-select -s /Applications/Xcode_16.0.app
 
       - name: Build NativeCompanion
